@@ -1,0 +1,13 @@
+.logo-wrapper a > img.logo-img{
+    max-width: 120px;
+}
+div.dataTables_info {
+    margin-block: 20px;
+}
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: right;
+}
+div.dataTables_wrapper div.dt-buttons {
+    position: relative;
+    float: left;
+}

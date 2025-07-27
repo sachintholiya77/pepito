@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 // Redirect user based on their role
                 if ($user['role'] == 'admin') {
-                    header("refresh:2;url=admin/dashboard.php");
+                    header("refresh:2;url=admin/index.php");
                 } else {
                     header("refresh:2;url=index.php");
                 }

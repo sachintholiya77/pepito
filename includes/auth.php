@@ -3,7 +3,7 @@
 if (isset($_SESSION['user_id'])) {
     // You can redirect based on role
     if ($_SESSION['user_role'] === 'admin') {
-        header("Location: admin/dashboard.php");
+        header("Location: admin/index.php");
     } else {
         header("Location: index.php");
     }

@@ -1,55 +1,23 @@
-
-        <!--**********************************
-            Footer start
-        ***********************************-->
-        <div class="footer">
-            <div class="copyright">
-                <!-- <p>© Pepito <a href="http://dexignzone.com/" target="_blank">DexignZone</a>2023</p> -->
-                <p>© 2025 Pepito -  All rights reserved. </p>
+  <footer class="footer">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12 footer-copyright d-flex flex-wrap align-items-center justify-content-between">
+                <p class="mb-0 f-w-600">Copyright 2025 © Pepito  </p>
+                <p class="mb-0 f-w-600">Hand crafted & made with
+                  <svg class="footer-icon">
+                    <use href="assets/svg/icon-sprite.svg#footer-heart"> </use>
+                  </svg>
+                </p>
+              </div>
             </div>
-        </div>
-        <!--**********************************
-            Footer end
-        ***********************************-->
-
-		<!--**********************************
-           Support ticket button start
-        ***********************************-->
-
-        <!--**********************************
-           Support ticket button end
-        ***********************************-->
-
-
+          </div>
+        </footer>
+      </div>
     </div>
-    <!--**********************************
-        Main wrapper end
-    ***********************************-->
+    <!-- Plugin used-->
 
-    <!--**********************************
-        Scripts
-    ***********************************-->
-    <!-- Required vendors -->
-       <script src="assets/vendor/global/global.min.js"></script>
-	<script src="assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
-	<script src="assets/vendor/chart-js/chart.bundle.min.js"></script>
-       <script src="assets/js/custom.min.js"></script>
-<script src="assets/js/deznav-init.js"></script>
-	
-	<!-- Counter Up -->
-    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="assets/vendor/jquery.counterup/jquery.counterup.min.js"></script>	
-		
-	<!-- Apex Chart -->
-	<script src="assets/vendor/apexchart/apexchart.js"></script>	
-	
-	<!-- Chart piety plugin files -->
-	<script src="assets/vendor/peity/jquery.peity.min.js"></script>
-	
-	<!-- Dashboard 1 -->
-	<script src="assets/js/dashboard/dashboard-1.js"></script>
-	
-	
-</body>
+    <?php include 'includes/scripts.php'; ?>
 
+  </body>
 </html>
+
