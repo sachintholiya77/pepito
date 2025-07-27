@@ -1,4 +1,4 @@
-
+<?php $page_title = "Dashboard"; ?>
 <?php include 'includes/header.php'; ?>
 <?php include 'includes/auth.php'; ?>
 <?php include 'includes/navbar.php'; ?>

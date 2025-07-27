@@ -5,7 +5,6 @@ require_once '../config/db_connect.php';
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from davur.dexignzone.com/dashboard/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 25 Jul 2025 09:58:46 GMT -->
 <head>
 	<!-- All Meta -->
 	<meta charset="utf-8">
@@ -23,10 +22,10 @@ require_once '../config/db_connect.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<!-- Title -->
-	<title>Davur : Restaurant Admin Dashboard + FrontEnd</title>
+	  <title><?php echo isset($page_title) ? $page_title . ' | Pepito' : 'Pepito - Admin'; ?></title>
     
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.svg">
     <link href="assets/vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/vendor/chartist/css/chartist.min.css">
 	<link href="assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
